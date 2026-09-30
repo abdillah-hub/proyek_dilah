@@ -36,10 +36,14 @@ export async function POST(request: NextRequest) {
       },
       { status: 200 }
     );
-  } catch {
+  } catch (error) {
+    console.error("Login error:", error);
     return Response.json(
       { success: false, message: "Terjadi kesalahan server!" },
       { status: 500 }
     );
   }
 }
+
+
+

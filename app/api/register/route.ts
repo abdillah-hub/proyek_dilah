@@ -52,10 +52,12 @@ export async function POST(request: NextRequest) {
       },
       { status: 201 }
     );
-  } catch {
+  } catch (error) {
+    console.error("Register error:", error);
     return Response.json(
       { success: false, message: "Terjadi kesalahan server!" },
       { status: 500 }
     );
   }
 }
+

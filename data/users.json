@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1788939067975",
+    "name": "abdillah",
+    "email": "dilahgtgbanget@gmail.com",
+    "password": "211008",
+    "createdAt": "2026-09-09T07:31:07.975Z"
+  },
+  {
+    "id": "1788939177511",
+    "name": "aslam",
+    "email": "aslam123@gmail.com",
+    "password": "asdqwe",
+    "createdAt": "2026-09-09T07:32:57.511Z"
+  },
+  {
+    "id": "1790218910928",
+    "name": "abdillah",
+    "email": "dilahgtg@gmail.com",
+    "password": "211008",
+    "createdAt": "2026-09-24T03:01:50.929Z"
+  },
+  {
+    "id": "1790664138906",
+    "name": "abdillah",
+    "email": "udin@gmail.com",
+    "password": "211008",
+    "createdAt": "2026-09-29T06:42:18.906Z"
+  }
+]
